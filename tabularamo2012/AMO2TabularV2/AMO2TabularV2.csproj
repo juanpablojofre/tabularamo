@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56E9E71F-A232-437F-BFAA-626C106C9AC4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MicrosoftSql2012Samples.Amo2Tabular</RootNamespace>
+    <AssemblyName>Amo2Tabular</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>..\AMO2TabularMinimumStandard.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>JuanPablo Jofre.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>..\AMO2TabularMinimumStandard.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AnalysisServices, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AnalysisServices.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AMO2Tabular.CalculatedColumnFunctions.cs" />
+    <Compile Include="AMO2Tabular.ColumnFunctions.cs" />
+    <Compile Include="AMO2Tabular.ConnectionFunctions.cs" />
+    <Compile Include="AMO2Tabular.DatabaseFunctions.cs" />
+    <Compile Include="AMO2Tabular.HelperFunctions.cs" />
+    <Compile Include="AMO2Tabular.HierarchyFunctions.cs" />
+    <Compile Include="AMO2Tabular.KpiFunctions.cs" />
+    <Compile Include="AMO2Tabular.MeasureFunctions.cs" />
+    <Compile Include="AMO2Tabular.PartitionFunctions.cs" />
+    <Compile Include="AMO2Tabular.PerspectiveFunctions.cs" />
+    <Compile Include="AMO2Tabular.RelationshipFunctions.cs" />
+    <Compile Include="AMO2Tabular.RlsFunctions.cs" />
+    <Compile Include="AMO2Tabular.RoleFunctions.cs" />
+    <Compile Include="AMO2Tabular.RoleMemberFunctions.cs" />
+    <Compile Include="AMO2Tabular.TableFunctions.cs" />
+    <Compile Include="ColumnInfo.cs" />
+    <Compile Include="CompatibilityLevel.cs" />
+    <Compile Include="RelationshipType.cs" />
+    <Compile Include="FullName.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TableInfo.cs" />
+    <Compile Include="DataType.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.ASAPROV.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.ASEOLEDB.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.DB2OLEDB.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.IFXOLEDBC.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.Microsoft SQL Server MPP OLE DB Provider.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.MICROSOFT.JET.OLEDB.4.0.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.MSDAORA.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.SNAC.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.SQLNCLI.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.SQLOLEDB.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.SYBASE ASE OLE DB PROVIDER.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.SYBASE OLEDB PROVIDER.cs" />
+    <Compile Include="GetDatabaseSchema\GetDatabaseSchema.TDOLEDB.cs" />
+    <Compile Include="LevelInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportingInfo.cs" />
+    <Compile Include="SummarizeBy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JuanPablo Jofre.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

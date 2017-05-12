@@ -1,0 +1,11 @@
+evaluate summarize('date','date'[calendaryear], "Total sales", 'Internet Sales'[Internet Total Sales])
+ 
+evaluate summarize('date','date'[calendaryear], "Total Discount Amount", 'Internet Sales'[Internet Total Discount Amount])
+
+evaluate 'product Inventory'
+
+evaluate VALUES('product Inventory'[Product-Date Inventory Value])
+
+DEFINE MEASURE 'Product Inventory'[Date Inventory Value] = SUM('Product Inventory'[Product-Date Inventory Value]) 
+EVALUATE FILTER( SUMMARIZE('Date','Date'[DateKey], "Inventory Value", 'Product Inventory'[Date Inventory Value]), [Inventory Value]>0)
+

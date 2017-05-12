@@ -1,0 +1,8 @@
+//evaluate row("Employe Id", lookupvalue('Employee'[Employee Id], 'Employee'[Login Id], "adventure-works\" & right(username(), len(username()) - search("\",username(),1,1))))
+
+
+evaluate addcolumns('Reseller Sales'
+, "Sales Person Hierarchy", LOOKUPVALUE('Employee'[Hierarchy], 'Employee'[Employee Id], 'Reseller Sales'[Employee Id])
+, "User Id", lookupvalue('Employee'[Employee Id], 'Employee'[Login Id], "adventure-works\" & right(username(), len(username()) - search("\",username(),1,1)))
+, "Pathcontains", PATHCONTAINS(LOOKUPVALUE('Employee'[Hierarchy], 'Employee'[Employee Id], 'Reseller Sales'[Employee Id]),lookupvalue('Employee'[Employee Id], 'Employee'[Login Id], "adventure-works\" & right(username(), len(username()) - search("\",username(),1,1))))
+)
