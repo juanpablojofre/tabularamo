@@ -10,7 +10,7 @@ The first part is a library of functions to manage tabular models
 The second part is a sample to build a tabular model
 -AdventureWorks Tabular AMO 2012- using the AMO2Tabular library;
 the created model is similar to the 'AdventureWorks Tabular Model 2012',
-available here [AdventureWorks DW Tabular Model SQL Server 2012](./AdventureWorksDW2012 Tabular/AdventureWorks DW Tabular Model SQL Server 2012).
+available here [AdventureWorks DW Tabular Model SQL Server 2012](../AdventureWorksDW2012 Tabular/AdventureWorks DW Tabular Model SQL Server 2012).
 
 The intentions around the AMO2Tabular library were to provide the most
 complete guide on how to write AMO code to manage the different logical

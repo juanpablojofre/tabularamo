@@ -1,0 +1,1541 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Customer</ID>
+  <Name>Customer</Name>
+  <CreatedTimestamp>2012-02-09T22:06:34.983333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2012-02-09T22:16:31.396667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-5464</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>2456</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>641</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="641" scrolltop="-6318" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="9393" y="25268" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Customer" left="2456" top="-74" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="5001" height="12637" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000891300005d310000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCustomer" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Geography" left="2536" top="-5464" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4847" height="3532" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000ef120000cc0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimGeography" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4560" top="-2431" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="2657" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimCustomer_DimGeography]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4959" y="-1932" />
+              <point x="4959" y="-875" />
+              <point x="4956" y="-875" />
+              <point x="4956" y="-74" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6318</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>90</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="191">
+            <Shape Id="Full Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Full Name" />
+                <Attribute Id="Address Line1" />
+                <Attribute Id="Birth Date" />
+                <Attribute Id="Date First Purchase" />
+                <Attribute Id="Education" />
+                <Attribute Id="Email Address" />
+                <Attribute Id="GenderDesc" />
+                <Attribute Id="HouseOwnerDesc" />
+                <Attribute Id="MaritalStatusDesc" />
+                <Attribute Id="Number Cars Owned" />
+                <Attribute Id="Number Children At Home" />
+                <Attribute Id="Occupation" />
+                <Attribute Id="Phone" />
+                <Attribute Id="Total Children" />
+                <Attribute Id="Yearly Income" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Dbo Dim Geography - Postal Code" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dbo Dim Geography - Postal Code" />
+              </Attributes>
+              <Position x="263" y="20" />
+            </Shape>
+            <Shape Id="Dbo Dim Geography - City" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dbo Dim Geography - City" />
+              </Attributes>
+              <Position x="507" y="20" />
+            </Shape>
+            <Shape Id="Dbo Dim Geography - State Province Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dbo Dim Geography - State Province Name" />
+              </Attributes>
+              <Position x="751" y="20" />
+            </Shape>
+            <Shape Id="Dbo Dim Geography - Country Region Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dbo Dim Geography - Country Region Name" />
+              </Attributes>
+              <Position x="995" y="20" />
+            </Shape>
+            <Shape Id="CommuteDistance" Expanded="false">
+              <Attributes>
+                <Attribute Id="CommuteDistance" />
+                <Attribute Id="CommuteDistanceSort" />
+              </Attributes>
+              <Position x="258" y="120" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2012-02-09T22:07:07.466667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <Type>Customers</Type>
+  <ErrorConfiguration>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation>
+      <Language>3082</Language>
+      <Caption>Cliente</Caption>
+    </Translation>
+    <Translation>
+      <Language>1036</Language>
+      <Caption>Client</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute>
+      <ID>Full Name</ID>
+      <Name>Customer</Name>
+      <Type>Customers</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>18484</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>CustomerKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>155</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>FullName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Cliente</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Client</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Date First Purchase</AttributeID>
+          <Name>Date of First Purchase</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Fecha de la Primera Compra</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Date de Premier Achat</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Phone</AttributeID>
+          <Name>Phone</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Teléfono</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Téléphone</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Number Cars Owned</AttributeID>
+          <Name>Number of Cars Owned</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Número de autos que posée</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Nombre de Voitures Possédées</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Occupation</AttributeID>
+          <Name>Occupation</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Ocupación</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Métier</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Education</AttributeID>
+          <Name>Education</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Educación</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Éducation</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Number Children At Home</AttributeID>
+          <Name>Number of Children At Home</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Número de niños en el Hogar</Caption>
+              <DisplayFolder>Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Nombre d'Enfants à la Maison</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Total Children</AttributeID>
+          <Name>Total Children</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Total Niños</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Nombre d'Enfants</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Yearly Income</AttributeID>
+          <Name>Yearly Income</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Ingreso Anual</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Revenu Annuel</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Email Address</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Email Address</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Dirección de corréo Electrónico</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Adresse Email</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Birth Date</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Birth Date</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Fecha del Nacimiento</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Date de Naissance</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>MaritalStatusDesc</AttributeID>
+          <Name>Marital Status</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Estado Civil</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>État Civil</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>GenderDesc</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Gender</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Género</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Genre</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>HouseOwnerDesc</AttributeID>
+          <Name>Home Owner</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Dueño de Vivienda</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Propriétaire Résidence Principale</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>CommuteDistance</AttributeID>
+          <Name>Commute Distance</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Distancia al Trabajo</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Distance de Travail</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Dbo Dim Geography - Postal Code</AttributeID>
+          <Name>Postal Code</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Código Postal</Caption>
+              <DisplayFolder>Localización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Code Postal</Caption>
+              <DisplayFolder>Endroit</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Address Line1</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Address</Name>
+          <Translations>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Adresse</Caption>
+              <DisplayFolder>Endroit</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Dirección</Caption>
+              <DisplayFolder>Localización</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Dbo Dim Geography - Postal Code</ID>
+      <Name>Postal Code</Name>
+      <EstimatedCount>646</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>PostalCode</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>City</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>StateProvinceCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>15</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>PostalCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Código Postal</Caption>
+          <DisplayFolder>Localización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Code Postal</Caption>
+          <DisplayFolder>Endroit</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Dbo Dim Geography - City</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>City</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Ciudad</Caption>
+              <DisplayFolder>Localización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Ville</Caption>
+              <DisplayFolder>Endroit</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Dbo Dim Geography - Country Region Name</ID>
+      <Name>Country</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>EnglishCountryRegionName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>EnglishCountryRegionName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>País-Región</Caption>
+          <DisplayFolder>Localización</DisplayFolder>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimGeography</TableID>
+              <ColumnID>SpanishCountryRegionName</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Pays</Caption>
+          <DisplayFolder>Endroit</DisplayFolder>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimGeography</TableID>
+              <ColumnID>FrenchCountryRegionName</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Dbo Dim Geography - State Province Name</ID>
+      <Name>State-Province</Name>
+      <EstimatedCount>71</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>StateProvinceCode</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>CountryRegionCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>StateProvinceName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Estado-Provincia</Caption>
+          <DisplayFolder>Localización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>État</Caption>
+          <DisplayFolder>Endroit</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Dbo Dim Geography - Country Region Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Country</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>País-Región</Caption>
+              <DisplayFolder>Localización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Pays</Caption>
+              <DisplayFolder>Endroit</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Birth Date</ID>
+      <Name>Birth Date</Name>
+      <EstimatedCount>8252</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>BirthDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>BirthDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Fecha del Nacimiento</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Date de Naissance</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Dbo Dim Geography - City</ID>
+      <Name>City</Name>
+      <EstimatedCount>587</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>City</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>StateProvinceCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>City</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Ciudad</Caption>
+          <DisplayFolder>Localización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Ville</Caption>
+          <DisplayFolder>Endroit</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Dbo Dim Geography - State Province Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>State-Province</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Estado-Provincia</Caption>
+              <DisplayFolder>Localización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>État</Caption>
+              <DisplayFolder>Endroit</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Date First Purchase</ID>
+      <Name>Date of First Purchase</Name>
+      <EstimatedCount>1124</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>DateFirstPurchase</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>SimpleDateFirstPurchase</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Fecha de la Primera Compra</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Date de Premier Achat</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Phone</ID>
+      <Name>Phone</Name>
+      <Type>PersonContact</Type>
+      <EstimatedCount>8890</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>Phone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>Phone</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Teléfono</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Téléphone</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Email Address</ID>
+      <Name>Email Address</Name>
+      <Type>PersonContact</Type>
+      <EstimatedCount>18484</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>EmailAddress</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>EmailAddress</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Dirección de corréo Electrónico</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Adresse Email</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Yearly Income</ID>
+      <Name>Yearly Income</Name>
+      <EstimatedCount>16</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Currency</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>YearlyIncome</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>YearlyIncome</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Ingreso Anual</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Revenu Annuel</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DiscretizationMethod>Automatic</DiscretizationMethod>
+      <DiscretizationBucketCount>5</DiscretizationBucketCount>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Total Children</ID>
+      <Name>Total Children</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>UnsignedTinyInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>TotalChildren</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>TotalChildren</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Total Niños</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Nombre d'Enfants</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Number Cars Owned</ID>
+      <Name>Number of Cars Owned</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>UnsignedTinyInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>NumberCarsOwned</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>NumberCarsOwned</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Número de autos que posée</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Nombre de Voitures Possédées</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Number Children At Home</ID>
+      <Name>Number of Children At Home</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>UnsignedTinyInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>NumberChildrenAtHome</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>NumberChildrenAtHome</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Número de niños en el Hogar</Caption>
+          <DisplayFolder>Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Nombre d'Enfants à la Maison</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Education</ID>
+      <Name>Education</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>EnglishEducation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>EnglishEducation</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Educación</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>40</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimCustomer</TableID>
+              <ColumnID>SpanishEducation</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Éducation</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>40</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimCustomer</TableID>
+              <ColumnID>FrenchEducation</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Occupation</ID>
+      <Name>Occupation</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>EnglishOccupation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>EnglishOccupation</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Ocupación</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>100</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimCustomer</TableID>
+              <ColumnID>SpanishOccupation</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Métier</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>100</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimCustomer</TableID>
+              <ColumnID>FrenchOccupation</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>MaritalStatusDesc</ID>
+      <Name>Marital Status</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>MaritalStatus</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>MaritalStatusDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Estado Civil</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>État Civil</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>GenderDesc</ID>
+      <Name>Gender</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>Gender</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>GenderDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Género</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Genre</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>HouseOwnerDesc</ID>
+      <Name>Home Owner</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>HouseOwnerFlag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>HouseOwnerDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Dueño de Vivienda</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Propriétaire Résidence Principale</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>CommuteDistance</ID>
+      <Name>Commute Distance</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>CommuteDistance</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>15</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>CommuteDistance</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Distancia al Trabajo</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Distance de Travail</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>CommuteDistanceSort</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Commute Distance Sort</Name>
+          <Translations>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Distance de Travail Triée</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Distancia al Trabajo Clase</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>CommuteDistanceSort</OrderByAttributeID>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>CommuteDistanceSort</ID>
+      <Name>Commute Distance Sort</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>CommuteDistanceSort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>CommuteDistanceSort</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Distance de Travail Triée</Caption>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Distancia al Trabajo Clase</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Address Line1</ID>
+      <Name>Address</Name>
+      <Type>Address</Type>
+      <EstimatedCount>12797</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>120</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimCustomer</TableID>
+            <ColumnID>AddressLine1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>120</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimCustomer</TableID>
+          <ColumnID>AddressLine1</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Adresse</Caption>
+          <DisplayFolder>Endroit</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Dirección</Caption>
+          <DisplayFolder>Localización</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Customers</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation>
+      <Language>3082</Language>
+      <Caption>Todos los Clientes</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation>
+      <Language>1036</Language>
+      <Caption>Tous les Clients</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Customer Geography</Name>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Geografía del Cliente</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Géographie de Client</Caption>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Customers</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation>
+          <Language>3082</Language>
+          <Caption>Todos los Clientes</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation>
+          <Language>1036</Language>
+          <Caption>Tous les Clients</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level>
+          <ID>Country</ID>
+          <Name>Country</Name>
+          <SourceAttributeID>Dbo Dim Geography - Country Region Name</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>País-Región</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Pays</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>State-Province</ID>
+          <Name>State-Province</Name>
+          <SourceAttributeID>Dbo Dim Geography - State Province Name</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Estado-Provincia</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>État</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>City</ID>
+          <Name>City</Name>
+          <SourceAttributeID>Dbo Dim Geography - City</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Ciudad</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Ville</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Postal Code</ID>
+          <Name>Postal Code</Name>
+          <SourceAttributeID>Dbo Dim Geography - Postal Code</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Código Postal</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Code Postal</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Full Name</ID>
+          <Name>Customer</Name>
+          <SourceAttributeID>Full Name</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Cliente</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Client</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

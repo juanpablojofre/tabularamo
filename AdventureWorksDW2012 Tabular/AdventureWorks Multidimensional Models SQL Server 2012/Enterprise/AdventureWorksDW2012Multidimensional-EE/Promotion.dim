@@ -1,0 +1,700 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Promotion</ID>
+  <Name>Promotion</Name>
+  <CreatedTimestamp>2012-02-09T22:06:35.076667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2012-02-09T22:16:31.913333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-6396</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>174</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1991</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1991" scrolltop="-8295" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9393" y="25268" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Promotion" left="174" top="-6396" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5053" height="9441" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000bd130000e1240000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimPromotion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8295</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="145">
+            <Shape Id="Promotion Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Promotion Name" />
+                <Attribute Id="Discount Pct" />
+                <Attribute Id="End Date" />
+                <Attribute Id="Max Qty" />
+                <Attribute Id="Min Qty" />
+                <Attribute Id="Start Date" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Promotion Category" Expanded="false">
+              <Attributes>
+                <Attribute Id="Promotion Category" />
+              </Attributes>
+              <Position x="415" y="20" />
+            </Shape>
+            <Shape Id="Promotion Type" Expanded="false">
+              <Attributes>
+                <Attribute Id="Promotion Type" />
+              </Attributes>
+              <Position x="416" y="83" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2012-02-09T22:07:06.403333Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <Type>Promotion</Type>
+  <ErrorConfiguration>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation>
+      <Language>3082</Language>
+      <Caption>Promoción</Caption>
+    </Translation>
+    <Translation>
+      <Language>1036</Language>
+      <Caption>Promotion</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute>
+      <ID>Promotion Name</ID>
+      <Name>Promotion</Name>
+      <Type>Promotion</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>16</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>PromotionKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>EnglishPromotionName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Promoción</Caption>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>SpanishPromotionName</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Promotion</Caption>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>FrenchPromotionName</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Min Qty</AttributeID>
+          <Name>Min Quantity</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Cantidad Mínima</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Quantité Minimum</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>End Date</AttributeID>
+          <Name>End Date</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Fecha Final</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Date de Fin</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Start Date</AttributeID>
+          <Name>Start Date</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Fecha Inicial</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Date de Début</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Promotion Type</AttributeID>
+          <Name>Promotion Type</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Tipo de Promoción</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Type de Promotion</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Discount Pct</AttributeID>
+          <Name>Discount Percent</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Porcentaje de Descuento</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Pourcentage de Remise</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Promotion Category</AttributeID>
+          <Name>Promotion Category</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Categoría de la Promoción</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Catégorie de Promotion</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Max Qty</AttributeID>
+          <Name>Max Quantity</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Cantidad Máxima</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Quantité Maximum</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Start Date</OrderByAttributeID>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Discount Pct</ID>
+      <Name>Discount Percent</Name>
+      <EstimatedCount>10</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>DiscountPct</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>DiscountPctDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Porcentaje de Descuento</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Pourcentage de Remise</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn>
+        <DataType>Double</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>DiscountPct</ColumnID>
+        </Source>
+      </ValueColumn>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Max Qty</ID>
+      <Name>Max Quantity</Name>
+      <Type>QtyRangeHigh</Type>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>MaxQty</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>MaxQtyDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Cantidad Máxima</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Quantité Maximum</Caption>
+        </Translation>
+      </Translations>
+      <ValueColumn>
+        <DataType>Integer</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>MaxQty</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Promotion Type</ID>
+      <Name>Promotion Type</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>EnglishPromotionType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>EnglishPromotionType</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Tipo de Promoción</Caption>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>SpanishPromotionType</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Type de Promotion</Caption>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>FrenchPromotionType</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Min Qty</ID>
+      <Name>Min Quantity</Name>
+      <Type>QtyRangeLow</Type>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>MinQty</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>MinQty</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Cantidad Mínima</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Quantité Minimum</Caption>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Promotion Category</ID>
+      <Name>Promotion Category</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>EnglishPromotionCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>EnglishPromotionCategory</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Categoría de la Promoción</Caption>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>SpanishPromotionCategory</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Catégorie de Promotion</Caption>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>FrenchPromotionCategory</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>End Date</ID>
+      <Name>End Date</Name>
+      <Type>DateEnded</Type>
+      <EstimatedCount>10</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>EndDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>SimpleEndDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Fecha Final</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Date de Fin</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn>
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>EndDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Start Date</ID>
+      <Name>Start Date</Name>
+      <Type>DateStart</Type>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>StartDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>SimpleStartDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Fecha Inicial</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Date de Début</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn>
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>StartDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Promotions</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation>
+      <Language>3082</Language>
+      <Caption>Todas las Promociones</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation>
+      <Language>1036</Language>
+      <Caption>Toutes les Promotions</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Promotions</Name>
+      <Translations>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Promotions</Caption>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Promociones</Caption>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Promotions</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation>
+          <Language>3082</Language>
+          <Caption>Todas las Promociones</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation>
+          <Language>1036</Language>
+          <Caption>Toutes les Promotions</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level>
+          <ID>Promotion Category</ID>
+          <Name>Category</Name>
+          <SourceAttributeID>Promotion Category</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Categoría de la Promoción</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Catégorie</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Promotion Type</ID>
+          <Name>Type</Name>
+          <SourceAttributeID>Promotion Type</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Tipo de Promoción</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Type</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Promotion Name</ID>
+          <Name>Promotion</Name>
+          <SourceAttributeID>Promotion Name</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Nombre de la Promoción</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Promotion</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,167 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>11.0.2100.5</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>AdventureWorksDW2012Multidimensional-EE.database</Name>
+    <FullPath>AdventureWorksDW2012Multidimensional-EE.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Adventure Works.cube</Name>
+      <FullPath>Adventure Works.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Adventure Works.partitions</Name>
+          <FullPath>Adventure Works.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Mined Customers.cube</Name>
+      <FullPath>Mined Customers.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Mined Customers.partitions</Name>
+          <FullPath>Mined Customers.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Account.dim</Name>
+      <FullPath>Account.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Clustered Customers.dim</Name>
+      <FullPath>Clustered Customers.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Department.dim</Name>
+      <FullPath>Department.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Destination Currency.dim</Name>
+      <FullPath>Destination Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Geography.dim</Name>
+      <FullPath>Geography.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Internet Sales Order Details.dim</Name>
+      <FullPath>Internet Sales Order Details.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Organization.dim</Name>
+      <FullPath>Organization.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Promotion.dim</Name>
+      <FullPath>Promotion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reseller Sales Order Details.dim</Name>
+      <FullPath>Reseller Sales Order Details.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reseller.dim</Name>
+      <FullPath>Reseller.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sales Channel.dim</Name>
+      <FullPath>Sales Channel.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sales Reason.dim</Name>
+      <FullPath>Sales Reason.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sales Summary Order Details.dim</Name>
+      <FullPath>Sales Summary Order Details.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sales Territory.dim</Name>
+      <FullPath>Sales Territory.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Scenario.dim</Name>
+      <FullPath>Scenario.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Source Currency.dim</Name>
+      <FullPath>Source Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Subcategory Basket Analysis.dim</Name>
+      <FullPath>Subcategory Basket Analysis.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>AdventureWorksDW2012.ds</Name>
+      <FullPath>AdventureWorksDW2012.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Adventure Works DW.dsv</Name>
+      <FullPath>Adventure Works DW.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Clustered Customers.dsv</Name>
+      <FullPath>Clustered Customers.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Subcategory Basket Analysis.dsv</Name>
+      <FullPath>Subcategory Basket Analysis.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <MiningModels>
+    <ProjectItem>
+      <Name>Customer Mining.dmm</Name>
+      <FullPath>Customer Mining.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Forecasting.dmm</Name>
+      <FullPath>Forecasting.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Market Basket.dmm</Name>
+      <FullPath>Market Basket.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sequence Clustering.dmm</Name>
+      <FullPath>Sequence Clustering.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Targeted Mailing.dmm</Name>
+      <FullPath>Targeted Mailing.dmm</FullPath>
+    </ProjectItem>
+  </MiningModels>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <DeploymentServerEdition>Evaluation</DeploymentServerEdition>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

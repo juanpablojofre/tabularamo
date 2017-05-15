@@ -1,0 +1,503 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Geography</ID>
+  <Name>Geography</Name>
+  <CreatedTimestamp>2012-02-09T22:06:35.03Z</CreatedTimestamp>
+  <LastSchemaUpdate>2012-02-09T22:16:31.74Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-7588</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-188</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1991</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1991" scrolltop="-8718" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9710" y="23998" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Geography" left="-188" top="-7588" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5184" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800004014000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimGeography" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8718</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2012-02-09T22:07:07.016667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <Type>Geography</Type>
+  <ErrorConfiguration>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation>
+      <Language>3082</Language>
+      <Caption>Geografía</Caption>
+    </Translation>
+    <Translation>
+      <Language>1036</Language>
+      <Caption>Géographie</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute>
+      <ID>City</ID>
+      <Name>City</Name>
+      <Type>City</Type>
+      <EstimatedCount>587</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>City</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>StateProvinceCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>City</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Ciudad</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Ville</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>State Province Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>State-Province</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Estado-Provincia</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>État</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>State Province Name</ID>
+      <Name>State-Province</Name>
+      <Type>StateOrProvince</Type>
+      <EstimatedCount>71</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>StateProvinceCode</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>CountryRegionCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>StateProvinceName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Estado-Provincia</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>État</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Country Region Code</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Country</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Pais</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Pays</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Country Region Code</ID>
+      <Name>Country</Name>
+      <Type>Country</Type>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>EnglishCountryRegionName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>EnglishCountryRegionName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Pais</Caption>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimGeography</TableID>
+              <ColumnID>SpanishCountryRegionName</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Pays</Caption>
+          <CaptionColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DimGeography</TableID>
+              <ColumnID>FrenchCountryRegionName</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Postal Code</ID>
+      <Name>Postal Code</Name>
+      <Type>PostalCode</Type>
+      <EstimatedCount>646</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>PostalCode</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>City</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>StateProvinceCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>15</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>PostalCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Código Postal</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Code Postal</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>City</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>City</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Ciudad</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Ville</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>GeographyKey</ID>
+      <Name>Geography Key</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>655</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimGeography</TableID>
+            <ColumnID>GeographyKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimGeography</TableID>
+          <ColumnID>GeographyKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Clef de Géographie</Caption>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Llave de la Geografía</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Postal Code</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Postal Code</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Código Postal</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Code Postal</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Geographies</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation>
+      <Language>1036</Language>
+      <Caption>Toutes les Géographies</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation>
+      <Language>3082</Language>
+      <Caption>Todas las Geografías</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Geography</Name>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Geografía</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Geographie</Caption>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Geographies</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation>
+          <Language>1036</Language>
+          <Caption>Toutes les Géographies</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation>
+          <Language>3082</Language>
+          <Caption>Todas las Geografías</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level>
+          <ID>Country</ID>
+          <Name>Country</Name>
+          <SourceAttributeID>Country Region Code</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Pais</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Pays</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>State-Province</ID>
+          <Name>State-Province</Name>
+          <SourceAttributeID>State Province Name</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Estado-Provincia</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>État</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>City</ID>
+          <Name>City</Name>
+          <SourceAttributeID>City</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Ciudad</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Ville</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Postal Code</ID>
+          <Name>Postal Code</Name>
+          <SourceAttributeID>Postal Code</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Código Postal</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Code Postal</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,94 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Subcategory Basket Analysis_DMDSV</ID>
+  <Name>Subcategory Basket Analysis</Name>
+  <CreatedTimestamp>2012-02-09T22:06:34.966667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2012-02-09T22:16:31.336667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9349" scrolltop="-9085" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="22992" y="22146" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIMENSION_CONTENT_ROWSET" left="-529" top="-7382" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5702" height="8162" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="0008000046160000e21f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="DIMENSION_CONTENT_ROWSET" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+              </dds>
+            </DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-9349</DiagramViewPortLeft>
+            <DiagramViewPortTop>-9085</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>.</DataSourceID>
+  <Schema>
+    <xs:schema id="DIMENSION_CONTENT_SCHEMA" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DIMENSION_CONTENT_SCHEMA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="DIMENSION_CONTENT_ROWSET" msprop:QueryDefinition="SELECT * FROM [Subcategory Associations].DIMENSION_CONTENT">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ATTRIBUTE_NAME" type="xs:string" minOccurs="0" />
+                  <xs:element name="NODE_NAME" type="xs:string" minOccurs="0" />
+                  <xs:element name="NODE_TYPE" type="xs:int" minOccurs="0" />
+                  <xs:element name="NODE_GUID" type="xs:string" minOccurs="0" />
+                  <xs:element name="NODE_CAPTION" type="xs:string" minOccurs="0" />
+                  <xs:element name="CHILDREN_CARDINALITY" type="xs:unsignedInt" minOccurs="0" />
+                  <xs:element name="PARENT_UNIQUE_NAME" type="xs:string" minOccurs="0" />
+                  <xs:element name="NODE_DESCRIPTION" type="xs:string" minOccurs="0" />
+                  <xs:element name="NODE_RULE" type="xs:string" minOccurs="0" />
+                  <xs:element name="MARGINAL_RULE" type="xs:string" minOccurs="0" />
+                  <xs:element name="NODE_PROBABILITY" type="xs:double" minOccurs="0" />
+                  <xs:element name="MARGINAL_PROBABILITY" type="xs:double" minOccurs="0" />
+                  <xs:element name="NODE_SUPPORT" type="xs:double" minOccurs="0" />
+                  <xs:element name="MSOLAP_MODEL_COLUMN" type="xs:string" minOccurs="0" />
+                  <xs:element name="MSOLAP_NODE_SCORE" type="xs:double" minOccurs="0" />
+                  <xs:element name="MSOLAP_NODE_SHORT_CAPTION" type="xs:string" minOccurs="0" />
+                  <xs:element name="NODE_UNIQUE_NAME" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <DIMENSION_CONTENT_SCHEMA xmlns="" />
+  </Schema>
+</DataSourceView>

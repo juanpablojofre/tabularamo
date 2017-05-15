@@ -1,0 +1,1712 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Employee</ID>
+  <Name>Employee</Name>
+  <CreatedTimestamp>2012-02-09T22:06:35.03Z</CreatedTimestamp>
+  <LastSchemaUpdate>2012-02-09T22:16:31.663333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-12130</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>337</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1693</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1693" scrolltop="-13947" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="87" x="9393" y="25268" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Employee" left="337" top="-12130" logicalid="3" controlid="1" masterid="0" hint1="0" hint2="0" width="5694" height="14934" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003e160000563a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimEmployee" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-963" top="-13430" logicalid="4" controlid="2" masterid="0" hint1="0" hint2="0" width="2797" height="2567" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimEmployee_DimEmployee]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="1" sourceattachpoint="20" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="337" y="-11263" />
+              <point x="-663" y="-11263" />
+              <point x="-663" y="-13130" />
+              <point x="1534" y="-13130" />
+              <point x="1534" y="-12130" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-13947</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>87</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="182">
+            <Shape Id="Full Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Full Name" />
+                <Attribute Id="Base Rate" />
+                <Attribute Id="Birth Date" />
+                <Attribute Id="Email Address" />
+                <Attribute Id="Emergency Contact Name" />
+                <Attribute Id="Emergency Contact Phone" />
+                <Attribute Id="ParentEmployeeKey" />
+                <Attribute Id="EndDate" />
+                <Attribute Id="GenderDesc" />
+                <Attribute Id="Hire Date" />
+                <Attribute Id="HireYear" />
+                <Attribute Id="Login ID" />
+                <Attribute Id="Manager SSN" />
+                <Attribute Id="MaritalStatusDesc" />
+                <Attribute Id="Pay Frequency" />
+                <Attribute Id="Phone" />
+                <Attribute Id="Salaried Flag" />
+                <Attribute Id="Sales Person Flag" />
+                <Attribute Id="SalesTerritoryKey" />
+                <Attribute Id="Sick Leave Hours" />
+                <Attribute Id="SSN" />
+                <Attribute Id="StartDate" />
+                <Attribute Id="EmployeeStatus" />
+                <Attribute Id="Vacation Hours" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Title" Expanded="false">
+              <Attributes>
+                <Attribute Id="Title" />
+              </Attributes>
+              <Position x="357" y="20" />
+            </Shape>
+            <Shape Id="Department Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Department Name" />
+              </Attributes>
+              <Position x="669" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2012-02-09T22:07:49.806667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation>
+      <Language>3082</Language>
+      <Caption>Empleado</Caption>
+    </Translation>
+    <Translation>
+      <Language>1036</Language>
+      <Caption>Employé</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute>
+      <ID>Full Name</ID>
+      <Name>Employee</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>291</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmployeeKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>FullName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Employé</Caption>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Empleado</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Sales Person Flag</AttributeID>
+          <Name>Sales Person Flag</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Bandera de Persona de Ventas</Caption>
+              <DisplayFolder>Organización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Vendeur</Caption>
+              <DisplayFolder>Organisation</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Sick Leave Hours</AttributeID>
+          <Name>Sick Leave Hours</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Horas de Licencia por Enfermedad</Caption>
+              <DisplayFolder>Organización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Heures de Congé de Maladie</Caption>
+              <DisplayFolder>Organisation</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Vacation Hours</AttributeID>
+          <Name>Vacation Hours</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Horas de Vacaciones</Caption>
+              <DisplayFolder>Organización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Heures de Vacances</Caption>
+              <DisplayFolder>Organisation</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Base Rate</AttributeID>
+          <Name>Base Rate</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Tarifa Baja</Caption>
+              <DisplayFolder>Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Taux de Base</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Pay Frequency</AttributeID>
+          <Name>Pay Frequency</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Frecuencia de Pago</Caption>
+              <DisplayFolder>Organización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Fréquence de Paiement</Caption>
+              <DisplayFolder>Organisation</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Salaried Flag</AttributeID>
+          <Name>Salaried Flag</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Bandera de Sueldo</Caption>
+              <DisplayFolder>Organización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Salarié</Caption>
+              <DisplayFolder>Organisation</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Emergency Contact Phone</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Emergency Contact Phone</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Teléfono del Contacto en Caso de Emergencia</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Téléphone du Contact de Secours</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Emergency Contact Name</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Emergency Contact Name</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Nombre del Contacto en Caso de Emergencia</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Nom du Contact de Secours</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Phone</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Phone</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Teléfono</Caption>
+              <DisplayFolder>Contactos</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Téléphone</Caption>
+              <DisplayFolder>Contact</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Email Address</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Email Address</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Corréo Electrónico</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Adresse Email</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Login ID</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Login ID</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Identificación de la Conexión</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Identification d'Ouverture</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Birth Date</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Birth Date</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Fecha del Nacimiento</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Date de Naissance</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Hire Date</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Hire Date</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Fecha de Contrato</Caption>
+              <DisplayFolder>Historia</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Date d'Embauche</Caption>
+              <DisplayFolder>Historique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Title</AttributeID>
+          <Name>Title</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Título</Caption>
+              <DisplayFolder>Organización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Titre</Caption>
+              <DisplayFolder>Organisation</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>GenderDesc</AttributeID>
+          <Name>Gender</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Género</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Genre</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>MaritalStatusDesc</AttributeID>
+          <Name>Marital Status</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Estado Civil</Caption>
+              <DisplayFolder>Grupo Demográfico</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>État Civil</Caption>
+              <DisplayFolder>Démographique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>SalesTerritoryKey</AttributeID>
+          <Name>Sales Territory Key</Name>
+          <Visible>false</Visible>
+          <Translations>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Clef de Territoire Commercial</Caption>
+              <DisplayFolder>Organisation</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Llave del Territorio de Ventas</Caption>
+              <DisplayFolder>Organización</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>SSN</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>SSN</Name>
+          <Translations>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Numéro de Sécurité Sociale</Caption>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Número de la Seguridad Social</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Manager SSN</AttributeID>
+          <Name>Manager SSN</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Número de la Seguridad Social del Encargado</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Numéro de Sécurité Sociale de Directeur</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>ParentEmployeeKey</AttributeID>
+          <Name>Employees</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Empleados</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Employés</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>EmployeeStatus</AttributeID>
+          <Name>Status</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Estado</Caption>
+              <DisplayFolder>Organización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Statut</Caption>
+              <DisplayFolder>Organisation</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>StartDate</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Start Date</Name>
+          <Translations>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Date de Début</Caption>
+              <DisplayFolder>Historique</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Fecha Inicial</Caption>
+              <DisplayFolder>Historia</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>EndDate</AttributeID>
+          <Name>End Date</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Fecha Final</Caption>
+              <DisplayFolder>Historia</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Date de Fin</Caption>
+              <DisplayFolder>Historique</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>HireYear</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Hire Year</Name>
+          <Translations>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Année d'Embauche</Caption>
+              <DisplayFolder>Historique</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Año de Contrato</Caption>
+              <DisplayFolder>Historia</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Department Name</ID>
+      <Name>Department Name</Name>
+      <EstimatedCount>16</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>DepartmentName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>DepartmentName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Nombre de Departamento</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Nom de Département</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Sales Person Flag</ID>
+      <Name>Sales Person Flag</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Boolean</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>SalesPersonFlag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>5</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SalesPersonFlagDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Bandera de Persona de Ventas</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Vendeur</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Title</ID>
+      <Name>Title</Name>
+      <EstimatedCount>67</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>Title</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>Title</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Título</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Titre</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Department Name</AttributeID>
+          <Name>Department Name</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Nombre de Departamento</Caption>
+              <DisplayFolder>Organización</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Nom de Département</Caption>
+              <DisplayFolder>Organisation</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Hire Date</ID>
+      <Name>Hire Date</Name>
+      <EstimatedCount>164</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>HireDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SimpleHireDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Fecha de Contrato</Caption>
+          <DisplayFolder>Historia</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Date d'Embauche</Caption>
+          <DisplayFolder>Historique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn>
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>HireDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Sick Leave Hours</ID>
+      <Name>Sick Leave Hours</Name>
+      <EstimatedCount>51</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>SmallInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>SickLeaveHours</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SickLeaveHours</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Horas de Licencia por Enfermedad</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Heures de Congé de Maladie</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DiscretizationMethod>Automatic</DiscretizationMethod>
+      <DiscretizationBucketCount>4</DiscretizationBucketCount>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Birth Date</ID>
+      <Name>Birth Date</Name>
+      <EstimatedCount>279</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>BirthDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>BirthDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Fecha del Nacimiento</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Date de Naissance</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Vacation Hours</ID>
+      <Name>Vacation Hours</Name>
+      <EstimatedCount>100</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>SmallInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>VacationHours</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>VacationHours</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Horas de Vacaciones</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Heures de Vacances</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DiscretizationMethod>Automatic</DiscretizationMethod>
+      <DiscretizationBucketCount>4</DiscretizationBucketCount>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Login ID</ID>
+      <Name>Login ID</Name>
+      <EstimatedCount>290</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>256</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>LoginID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>256</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>LoginID</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Identificación de la Conexión</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Identification d'Ouverture</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Base Rate</ID>
+      <Name>Base Rate</Name>
+      <EstimatedCount>53</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Currency</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>BaseRate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>BaseRate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Tarifa Baja</Caption>
+          <DisplayFolder>Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Taux de Base</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DiscretizationMethod>Automatic</DiscretizationMethod>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Email Address</ID>
+      <Name>Email Address</Name>
+      <Type>PersonContact</Type>
+      <EstimatedCount>290</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmailAddress</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>EmailAddress</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Corréo Electrónico</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Adresse Email</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Pay Frequency</ID>
+      <Name>Pay Frequency</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>UnsignedTinyInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>PayFrequency</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>PayFrequencyDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Frecuencia de Pago</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Fréquence de Paiement</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Phone</ID>
+      <Name>Phone</Name>
+      <Type>PersonContact</Type>
+      <EstimatedCount>288</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>Phone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>25</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>Phone</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Teléfono</Caption>
+          <DisplayFolder>Contactos</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Téléphone</Caption>
+          <DisplayFolder>Contact</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Salaried Flag</ID>
+      <Name>Salaried Flag</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Boolean</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>SalariedFlag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>5</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SalariedFlagDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Bandera de Sueldo</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Salarié</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Emergency Contact Name</ID>
+      <Name>Emergency Contact Name</Name>
+      <EstimatedCount>290</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmergencyContactName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>EmergencyContactName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Nombre del Contacto en Caso de Emergencia</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Nom du Contact de Secours</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Emergency Contact Phone</ID>
+      <Name>Emergency Contact Phone</Name>
+      <EstimatedCount>288</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmergencyContactPhone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>25</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>EmergencyContactPhone</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Teléfono del Contacto en Caso de Emergencia</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Téléphone du Contact de Secours</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>GenderDesc</ID>
+      <Name>Gender</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>Gender</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>GenderDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Género</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Genre</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>MaritalStatusDesc</ID>
+      <Name>Marital Status</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>7</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>MaritalStatusDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>MaritalStatusDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Estado Civil</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>État Civil</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>SalesTerritoryKey</ID>
+      <Name>Sales Territory Key</Name>
+      <EstimatedCount>11</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>SalesTerritoryKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SalesTerritoryKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Clef de Territoire Commercial</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Llave del Territorio de Ventas</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>SSN</ID>
+      <Name>SSN</Name>
+      <EstimatedCount>290</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmployeeNationalIDAlternateKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>15</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>EmployeeNationalIDAlternateKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Numéro de Sécurité Sociale</Caption>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Número de la Seguridad Social</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Manager SSN</ID>
+      <Name>Manager SSN</Name>
+      <EstimatedCount>290</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>ParentEmployeeNationalIDAlternateKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>15</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>ParentEmployeeNationalIDAlternateKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Número de la Seguridad Social del Encargado</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Numéro de Sécurité Sociale de Directeur</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ParentEmployeeKey</ID>
+      <Name>Employees</Name>
+      <Type>Person</Type>
+      <Usage>Parent</Usage>
+      <EstimatedCount>47</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>ParentEmployeeKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>ParentEmployeeKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Empleados</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Employés</Caption>
+        </Translation>
+      </Translations>
+      <NamingTemplate>Employee Level *;</NamingTemplate>
+      <NamingTemplateTranslations>
+        <NamingTemplateTranslation>
+          <Language>3082</Language>
+          <Caption>Empleado de Nivel *;</Caption>
+        </NamingTemplateTranslation>
+        <NamingTemplateTranslation>
+          <Language>1036</Language>
+          <Caption>Niveau des Employés *;</Caption>
+        </NamingTemplateTranslation>
+      </NamingTemplateTranslations>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>EmployeeStatus</ID>
+      <Name>Status</Name>
+      <Type>ScdStatus</Type>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmployeeStatus</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>16</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>EmployeeStatus</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Estado</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Statut</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>StartDate</ID>
+      <Name>Start Date</Name>
+      <Type>ScdStartDate</Type>
+      <EstimatedCount>170</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>StartDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SimpleStartDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Date de Début</Caption>
+          <DisplayFolder>Historique</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Fecha Inicial</Caption>
+          <DisplayFolder>Historia</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn>
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>StartDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>EndDate</ID>
+      <Name>End Date</Name>
+      <Type>ScdEndDate</Type>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EndDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SimpleEndDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Fecha Final</Caption>
+          <DisplayFolder>Historia</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Date de Fin</Caption>
+          <DisplayFolder>Historique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn>
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>EndDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>HireYear</ID>
+      <Name>Hire Year</Name>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>HireYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>HireYear</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Année d'Embauche</Caption>
+          <DisplayFolder>Historique</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Año de Contrato</Caption>
+          <DisplayFolder>Historia</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Employees</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation>
+      <Language>3082</Language>
+      <Caption>Todos los Empleados</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation>
+      <Language>1036</Language>
+      <Caption>Tous les Employés</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Employee Department</Name>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Departamento del Empleado</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Département des Employés</Caption>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Employees</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation>
+          <Language>3082</Language>
+          <Caption>Todos los Empleados</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation>
+          <Language>1036</Language>
+          <Caption>Tous les Employés</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level>
+          <ID>Department Name</ID>
+          <Name>Department</Name>
+          <SourceAttributeID>Department Name</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Departamento</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Département</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Title</ID>
+          <Name>Title</Name>
+          <SourceAttributeID>Title</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Título</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Titre</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Full Name</ID>
+          <Name>Employee</Name>
+          <SourceAttributeID>Full Name</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Empleado</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Employé</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
