@@ -31,6 +31,12 @@
 # Debug files
 *.dSYM/
 *.su
+
 # Binary folders
 */obj/*
 */bin/*
+
+# Database files
+*.mdf
+*.ldf
+*.bak

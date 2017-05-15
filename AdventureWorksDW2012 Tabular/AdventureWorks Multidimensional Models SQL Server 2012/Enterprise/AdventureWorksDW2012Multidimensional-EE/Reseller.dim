@@ -1,0 +1,1312 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Reseller</ID>
+  <Name>Reseller</Name>
+  <CreatedTimestamp>2012-02-09T22:06:35.093333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2012-02-09T22:16:32.006667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-7057</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-753</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1753</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1753" scrolltop="-8057" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9393" y="25268" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Reseller" left="-753" top="-7057" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4977" height="11874" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="0008000071130000622e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimReseller" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8057</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="159">
+            <Shape Id="Reseller Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Reseller Name" />
+                <Attribute Id="AddressLine1" />
+                <Attribute Id="Annual Revenue" />
+                <Attribute Id="Annual Sales" />
+                <Attribute Id="First Order Year" />
+                <Attribute Id="GeographyKey" />
+                <Attribute Id="Last Order Year" />
+                <Attribute Id="Min Payment Amount" />
+                <Attribute Id="Min Payment Type" />
+                <Attribute Id="Number Employees" />
+                <Attribute Id="Phone" />
+                <Attribute Id="Product Line" />
+                <Attribute Id="Year Opened" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="OrderMonthDesc" Expanded="false">
+              <Attributes>
+                <Attribute Id="OrderMonthDesc" />
+              </Attributes>
+              <Position x="377" y="20" />
+            </Shape>
+            <Shape Id="OrderFrequencyDesc" Expanded="false">
+              <Attributes>
+                <Attribute Id="OrderFrequencyDesc" />
+              </Attributes>
+              <Position x="338" y="78" />
+            </Shape>
+            <Shape Id="Business Type" Expanded="false">
+              <Attributes>
+                <Attribute Id="Business Type" />
+              </Attributes>
+              <Position x="289" y="137" />
+            </Shape>
+            <Shape Id="Bank Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Bank Name" />
+              </Attributes>
+              <Position x="244" y="197" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2012-02-09T22:07:07.966667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <Type>Channel</Type>
+  <ErrorConfiguration>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation>
+      <Language>3082</Language>
+      <Caption>Revendedor</Caption>
+    </Translation>
+    <Translation>
+      <Language>1036</Language>
+      <Caption>Revendeur</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute>
+      <ID>Reseller Name</ID>
+      <Name>Reseller</Name>
+      <Type>Channel</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>701</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>ResellerKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>ResellerName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Revendedor</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Revendeur</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Product Line</AttributeID>
+          <Name>Product Line</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Línea de Productos</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Ligne de Produit</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Last Order Year</AttributeID>
+          <Name>Last Order Year</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Año de Ultima Orden</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Année de Dernière Commande</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>First Order Year</AttributeID>
+          <Name>First Order Year</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Año de Primera Orden</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Année de Première Commande</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Year Opened</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Year Opened</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Año en que  Abrió</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Année d'Ouverture</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Annual Revenue</AttributeID>
+          <Name>Annual Revenue</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Ingreso Anual</Caption>
+              <DisplayFolder>Datos de Ventas</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Revenu Annuel</Caption>
+              <DisplayFolder>Données de Ventes</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Min Payment Amount</AttributeID>
+          <Name>Min Payment Amount</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Cantidad Mínima del Pago</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Minimum de Paiement</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Min Payment Type</AttributeID>
+          <Name>Min Payment Type</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Tipo de Pago Mínimo</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Type de Minimum de Paiement</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Bank Name</AttributeID>
+          <Name>Bank Name</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Nombre de Banco</Caption>
+              <DisplayFolder>Datos de la Orden</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Nom de la Banque</Caption>
+              <DisplayFolder>Données de Commande</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Annual Sales</AttributeID>
+          <Name>Annual Sales</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Ventas Anuales</Caption>
+              <DisplayFolder>Datos de Ventas</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Ventes Annuelles</Caption>
+              <DisplayFolder>Données de Ventes</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Number Employees</AttributeID>
+          <Name>Number of Employees</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Número de Empleados</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Nombre d'Employés</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Business Type</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Business Type</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Tipo de Negocio</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Type d'Affaires</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Phone</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Phone</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Teléfono</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Téléphone</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>OrderFrequencyDesc</AttributeID>
+          <Name>Order Frequency</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Frecuencia de la Orden</Caption>
+              <DisplayFolder>Datos de la Orden</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Fréquence de Commande</Caption>
+              <DisplayFolder>Données de Commande</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>OrderMonthDesc</AttributeID>
+          <Name>Order Month</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Mes de la Orden</Caption>
+              <DisplayFolder>Datos de la Orden</DisplayFolder>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Mois de Commande</Caption>
+              <DisplayFolder>Données de Commande</DisplayFolder>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>GeographyKey</AttributeID>
+          <Name>Geography Key</Name>
+          <Visible>false</Visible>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Llave de la Geografía</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Clef de Géographie</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>AddressLine1</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Address</Name>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Dirección</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Adresse</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Product Line</ID>
+      <Name>Product Line</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>ProductLine</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>ProductLine</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Línea de Productos</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Ligne de Produit</Caption>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Phone</ID>
+      <Name>Phone</Name>
+      <EstimatedCount>610</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>Phone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>25</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>Phone</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Teléfono</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Téléphone</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Last Order Year</ID>
+      <Name>Last Order Year</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>LastOrderYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>LastOrderYearDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Año de Ultima Orden</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Année de Dernière Commande</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Business Type</ID>
+      <Name>Business Type</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>BusinessType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>BusinessType</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Tipo de Negocio</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Type d'Affaires</Caption>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>First Order Year</ID>
+      <Name>First Order Year</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>FirstOrderYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>FirstOrderYearDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Año de Primera Orden</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Année de Première Commande</Caption>
+        </Translation>
+      </Translations>
+      <ValueColumn>
+        <DataType>Integer</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>FirstOrderYear</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Number Employees</ID>
+      <Name>Number of Employees</Name>
+      <EstimatedCount>76</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>NumberEmployees</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>NumberEmployees</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Número de Empleados</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Nombre d'Employés</Caption>
+        </Translation>
+      </Translations>
+      <DiscretizationMethod>Automatic</DiscretizationMethod>
+      <DiscretizationBucketCount>4</DiscretizationBucketCount>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Year Opened</ID>
+      <Name>Year Opened</Name>
+      <EstimatedCount>32</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>YearOpened</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>YearOpened</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Año en que  Abrió</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Année d'Ouverture</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Annual Sales</ID>
+      <Name>Annual Sales</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Currency</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>AnnualSales</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>AnnualSales</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Ventas Anuales</Caption>
+          <DisplayFolder>Datos de Ventas</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Ventes Annuelles</Caption>
+          <DisplayFolder>Données de Ventes</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Sales Data</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Annual Revenue</ID>
+      <Name>Annual Revenue</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Currency</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>AnnualRevenue</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>AnnualRevenue</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Ingreso Anual</Caption>
+          <DisplayFolder>Datos de Ventas</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Revenu Annuel</Caption>
+          <DisplayFolder>Données de Ventes</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Sales Data</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Bank Name</ID>
+      <Name>Bank Name</Name>
+      <EstimatedCount>7</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>BankName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>BankName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Nombre de Banco</Caption>
+          <DisplayFolder>Datos de la Orden</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Nom de la Banque</Caption>
+          <DisplayFolder>Données de Commande</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Order Data</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Min Payment Amount</ID>
+      <Name>Min Payment Amount</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Currency</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>MinPaymentAmount</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>MinPaymentAmountDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Cantidad Mínima del Pago</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Minimum de Paiement</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn>
+        <DataType>Double</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>MinPaymentAmount</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Min Payment Type</ID>
+      <Name>Min Payment Type</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>UnsignedTinyInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>MinPaymentType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>MinPaymentTypeDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Tipo de Pago Mínimo</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Type de Minimum de Paiement</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>OrderFrequencyDesc</ID>
+      <Name>Order Frequency</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>OrderFrequency</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>OrderFrequencyDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Frecuencia de la Orden</Caption>
+          <DisplayFolder>Datos de la Orden</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Fréquence de Commande</Caption>
+          <DisplayFolder>Données de Commande</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Order Data</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>OrderMonthDesc</ID>
+      <Name>Order Month</Name>
+      <EstimatedCount>12</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>OrderMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>OrderMonthDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Mes de la Orden</Caption>
+          <DisplayFolder>Datos de la Orden</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Mois de Commande</Caption>
+          <DisplayFolder>Données de Commande</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn>
+        <DataType>UnsignedTinyInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>OrderMonth</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Order Data</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>GeographyKey</ID>
+      <Name>Geography Key</Name>
+      <EstimatedCount>510</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>GeographyKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>GeographyKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Llave de la Geografía</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Clef de Géographie</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>AddressLine1</ID>
+      <Name>Address</Name>
+      <Type>Address</Type>
+      <EstimatedCount>687</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>60</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_DimReseller</TableID>
+            <ColumnID>AddressLine1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>60</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_DimReseller</TableID>
+          <ColumnID>AddressLine1</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Dirección</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Adresse</Caption>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Resellers</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation>
+      <Language>3082</Language>
+      <Caption>Todos los Revendedores</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation>
+      <Language>1036</Language>
+      <Caption>Tous les Revendeurs</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Reseller Type</Name>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Tipo del Revendedor</Caption>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Type de Revendeur</Caption>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Resellers</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation>
+          <Language>3082</Language>
+          <Caption>Todos los Revendedores</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation>
+          <Language>1036</Language>
+          <Caption>Tous les Revendeurs</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level>
+          <ID>Business Type</ID>
+          <Name>Business Type</Name>
+          <SourceAttributeID>Business Type</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Tipo de Negocio</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Type d'Affaires</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Reseller Name</ID>
+          <Name>Reseller</Name>
+          <SourceAttributeID>Reseller Name</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Nombre del Revendedor</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Revendeur</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 1</ID>
+      <Name>Reseller Bank</Name>
+      <DisplayFolder>Order Data</DisplayFolder>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Banco del Revendedor</Caption>
+          <DisplayFolder>Datos de la Orden</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Banque du Revendeur</Caption>
+          <DisplayFolder>Données de Commande</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Resellers</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation>
+          <Language>3082</Language>
+          <Caption>Todos los Revendedores</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation>
+          <Language>1036</Language>
+          <Caption>Tous les Revendeurs</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level>
+          <ID>Bank Name</ID>
+          <Name>Bank Name</Name>
+          <SourceAttributeID>Bank Name</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Nombre de Banco</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Nom de la Banque</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Reseller Name</ID>
+          <Name>Reseller</Name>
+          <SourceAttributeID>Reseller Name</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Nombre del Revendedor</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Revendeur</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 2</ID>
+      <Name>Reseller Order Frequency</Name>
+      <DisplayFolder>Order Data</DisplayFolder>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Frecuencia de Pedido del Revendedor</Caption>
+          <DisplayFolder>Datos de la Orden</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Fréquence de Commande du Revendeur</Caption>
+          <DisplayFolder>Données de Commande</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Resellers</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation>
+          <Language>3082</Language>
+          <Caption>Todos los Revendedores</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation>
+          <Language>1036</Language>
+          <Caption>Tous les Revendeurs</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level>
+          <ID>Order Frequency</ID>
+          <Name>Order Frequency</Name>
+          <SourceAttributeID>OrderFrequencyDesc</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Frecuencia de la Orden</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Fréquence de Commande</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Reseller Name</ID>
+          <Name>Reseller</Name>
+          <SourceAttributeID>Reseller Name</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Nombre del Revendedor</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Revendeur</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 1 1</ID>
+      <Name>Reseller Order Month</Name>
+      <DisplayFolder>Order Data</DisplayFolder>
+      <Translations>
+        <Translation>
+          <Language>3082</Language>
+          <Caption>Mes de Pedido del Revendedor</Caption>
+          <DisplayFolder>Datos de la Orden</DisplayFolder>
+        </Translation>
+        <Translation>
+          <Language>1036</Language>
+          <Caption>Mois de Commande de Revendeur</Caption>
+          <DisplayFolder>Données de Commande</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Resellers</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation>
+          <Language>3082</Language>
+          <Caption>Todos los Revendedores</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation>
+          <Language>1036</Language>
+          <Caption>Tous les Revendeurs</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level>
+          <ID>Order Month</ID>
+          <Name>Order Month</Name>
+          <SourceAttributeID>OrderMonthDesc</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Mes de la Orden</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Mois de Commande</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level>
+          <ID>Reseller Name</ID>
+          <Name>Reseller</Name>
+          <SourceAttributeID>Reseller Name</SourceAttributeID>
+          <Translations>
+            <Translation>
+              <Language>3082</Language>
+              <Caption>Nombre del Revendedor</Caption>
+            </Translation>
+            <Translation>
+              <Language>1036</Language>
+              <Caption>Revendeur</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
